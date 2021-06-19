@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#wrapper {
+	width: 100%;
+}
+header {
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+
+}
+.container {
+	width: 1420px;
+	margin: 0 auto;
+    
+}
+.header-main {
+	display: flex;
+}
+.logo {
+	width: 15%;
+	padding: 24px 0;
+	margin-left: 50px;
+	font-size: 45px;
+	
+}
+.logo a {
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 24px;
+}
+.menu {
+	width: 70%;
+}
+.menu ul {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+}
+.menu ul li {
+	margin: 0 15px;
+}
+.menu ul li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition-duration: 1s;
+}
+.menu ul li a:hover {
+	color: #D1383B;
+}
+.icon {
+	width: 15%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.icon a {
+	color: white;
+	font-size: 20px;
+	margin: 0 10px;
+	transition-duration: 1s;
+	text-decoration: none;
+	background: #E5191C;
+	border: 1px solid white;
+	padding: 10px 20px
+}
+
+.icon a:hover {
+	color: black;
+	background: white;
+}
+.ion {
+	width: 5%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.ion a {
+	color: white;
+	font-size: 35px;
+	margin: 0 10px;
+	transition-duration: 1s;
+	padding: 5px
+}
+
+.banner {
+	width: 100%;
+	height: 100vh;
+	position: relative;	
+}
+.banner video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content {
+	color: white;
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	text-align: center;
+	text-transform: uppercase;
+}
+.content h5{
+    font-size: 15px;	
+	color: #F0F0F0;
+	font-weight: 400;
+}
+.content h1 {
+	font-size: 150px;
+	letter-spacing: 3px;
+	margin: 5px 20px 50px 20px;
+}
+.content p {
+	letter-spacing: 5px;
+	margin-bottom: 50px;
+}
+.content a {
+	padding: 15px 40px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	font-size: 30px;
+	letter-spacing: 3px;
+	transition-duration: 1s;
+	background: #DC3235;
+}
+.content a:hover {
+	background: white;
+	color: black;
+}
